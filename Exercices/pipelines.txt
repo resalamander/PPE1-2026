@@ -1,0 +1,93 @@
+ 1.a
+  cd ./2017
+  296  cat *.ann | wc > ../comptes.txt
+  297  cat *.ann | wc
+  298  cd ../
+  299  cd ./2016
+  300  cat *.ann | wc
+  301  cd ../
+  302  cd ./2018
+  303  cat *.ann | wc
+  304  echo "annotation en 2016:
+  305  300935
+  306  annotation en 2017:
+  307  229756
+  308  annoation en 2018:
+  309  250479" > ../comptes.txt
+
+ 1.b
+ grep Location *.ann | wc
+  323  cd ../2017
+  324  grep Location *.ann | wc
+  325  cd ../2018
+  326  grep Location *.ann | wc
+  327  echo "Locations en 2016:
+152145
+locations en 2017:
+120597
+locations en 2018:
+158984" > ../locations.txt
+
+2.a
+sal@sal-latitude5300:~/Exercice1/ann/2016$ cat *.ann|grep Location|cut -f 3|sort|uniq -c|sort -n|tail -15 > ../classement_2016.txt
+sal@sal-latitude5300:~/Exercice1/ann/2016$ cd ../2017
+sal@sal-latitude5300:~/Exercice1/ann/2017$ cat *.ann|grep Location|cut -f 3|sort|uniq -c|sort -n|tail -15 > ../classement_2017.txt
+sal@sal-latitude5300:~/Exercice1/ann/2017$ cd ../2018
+sal@sal-latitude5300:~/Exercice1/ann/2018$ cat *.ann|grep Location|cut -f 3|sort|uniq -c|sort -n|tail -15 > ../classement_2018.txt
+sal@sal-latitude5300:~/Exercice1/ann/2018$
+
+2.b
+ 429  cat 2016_05*.ann|grep Location|cut -f 3|sort|uniq -c|sort -n|tail -15
+431  cd ../2017
+  432  cat 2017_05*.ann|grep Location|cut -f 3|sort|uniq -c|sort -n|tail -15
+  433  cd ../2018
+  434  cat 2018_05*.ann|grep Location|cut -f 3|sort|uniq -c|sort -n|tail -15
+echo "classement 2016:
+  476  >  3 Méditerranée
+  477        3 Québec
+  478        3 Stockholm
+  479        3 Texas
+  480        3 Wolfsburg
+  481        3 États-Unis
+  482        5 Aix-les-Bains
+  483        5 Chine
+  484        5 Savoie
+  485        8 Espagne
+  486        8 Royaume-Uni
+  487        9 Allemagne
+  488       11 Suède
+  489       12 Italie
+  490       27 France
+  491  classement 2017:
+  492  2 Titan
+  493        2 Turquie
+  494        2 Yokohama
+  495        3 Jérusalem
+  496        3 Kiev
+  497        3 New York
+  498        4 États-Unis
+  499        6 Québec
+  500        7 Espagne
+  501        8 Allemagne
+  502        8 Italie
+  503        8 Royaume-Uni
+  504        9 Montréal
+  505       11 Ukraine
+  506       13 France
+  507  classement 2018:
+  508   1 Switzerland
+  509        1 Zimbabwe
+  510        2 Allemagne
+  511        2 Corée du Nord
+  512        2 Espagne
+  513        2 Israël
+  514        2 Italie
+  515        2 Singapour
+  516        3 Portugal
+  517        3 Royaume-Uni
+  518        3 Suisse
+  519        4 Swaziland
+  520        4 eSwatini
+  521        4 États-Unis
+  522        5 France" > classement_mai.txt
+

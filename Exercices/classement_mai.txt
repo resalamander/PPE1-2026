@@ -1,0 +1,50 @@
+classement 2016:
+      3 Méditerranée
+      3 Québec
+      3 Stockholm
+      3 Texas
+      3 Wolfsburg
+      3 États-Unis
+      5 Aix-les-Bains
+      5 Chine
+      5 Savoie
+      8 Espagne
+      8 Royaume-Uni
+      9 Allemagne
+     11 Suède
+     12 Italie
+     27 France
+
+classement 2017:
+      2 Titan
+      2 Turquie
+      2 Yokohama
+      3 Jérusalem
+      3 Kiev
+      3 New York
+      4 États-Unis
+      6 Québec
+      7 Espagne
+      8 Allemagne
+      8 Italie
+      8 Royaume-Uni
+      9 Montréal
+     11 Ukraine
+     13 France
+
+classement 2018:
+      1 Switzerland
+      1 Zimbabwe
+      2 Allemagne
+      2 Corée du Nord
+      2 Espagne
+      2 Israël
+      2 Italie
+      2 Singapour
+      3 Portugal
+      3 Royaume-Uni
+      3 Suisse
+      4 Swaziland
+      4 eSwatini
+      4 États-Unis
+      5 France
