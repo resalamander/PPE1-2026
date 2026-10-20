@@ -15,3 +15,10 @@ Pour la question 1.b, j'ai suivi la même méthode mais en utilisant l'étape av
 Le reste de l'exercice était un peu plus compliqué et j'ai du cherché plusieurs solutions en ligne, notamment les options possibles avec les commandes sort, uniq et cut.
 J'ai d'abord spécifié ma lecture des fichiers avec grep Locations, puis cut, en choisissant les champs qui étaient intéressants (ici le nom des locations). Il fallait ensuite 
 
+##
+## semaine du 19/10
+
+Lignes bidons à rajouter 
+
+je sais pas quoi dire
+
