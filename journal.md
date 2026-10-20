@@ -17,6 +17,7 @@ J'ai d'abord spécifié ma lecture des fichiers avec grep Locations, puis cut, e
 
 ##
 ## semaine du 19/10
+#exercices git corrections d'erreur
 
 Lignes bidons à rajouter 
 
@@ -53,3 +54,5 @@ et après avoir rendu le fichier executable avec chmod +x, le terminal me dit qu
 Quand j'enlève cette ligne, le fichier n'est plus reconnu comme un script sh mais comme un texte brut même s'il est toujours en format sh.
 
 J'ai essayé de comprendre mais je n'y arive pas, donc j'abandonne (à la première question, oui...)
+
+#on met la ligne 'exercice git' de côté ? 
