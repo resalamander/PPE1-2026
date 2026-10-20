@@ -56,3 +56,5 @@ Quand j'enlève cette ligne, le fichier n'est plus reconnu comme un script sh ma
 J'ai essayé de comprendre mais je n'y arive pas, donc j'abandonne (à la première question, oui...)
 
 #on met la ligne 'exercice git' de côté ? 
+
+là je fais mes changements (je comprends pas trop)
